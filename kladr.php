@@ -8,8 +8,6 @@
 
 defined('_JEXEC') or die;
 
-use Joomla\CMS\Factory;
-use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Plugin\CMSPlugin;
 
 /**
@@ -30,8 +28,6 @@ class PlgContentKladr extends CMSPlugin
 				<script src='https://yastatic.net/jquery/3.3.1/jquery.min.js' type='text/javascript'></script>
 				<script src='/kladr/jquery.fias.min.js' type='text/javascript'></script>
 				<script src='/kladr/script-admin.js' type='text/javascript'></script>";
-
-				//JFactory::getApplication()->enqueueMessage('ID автосалона - ');
 			}
 		} 
 	}
