@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="0.9" group="content" method="upgrade">
+	<name>KLADR при добавлении автосалонов</name>
+	<creationDate>03/10/2023</creationDate>
+	<author>Dmitry Denisov</author>
+	<authorEmail>info@codersite.ru</authorEmail>
+	<authorUrl>https://codersite.ru</authorUrl>
+	<copyright>(C) 2023 codersite.ru. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE</license>
+	<version>0.9</version>
+	<description>Плагин добавляет скрипт kladr.api для автоподстановки адресов в поля</description>
+
+	<files>
+		<filename plugin="kladr">kladr.php</filename>
+	</files>
+
+	</extension>
